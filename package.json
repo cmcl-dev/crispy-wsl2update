@@ -1,0 +1,7 @@
+{
+  "name": "crispy-wsl2update",
+  "version": "2023.3.9",
+  "description": "SYNC wsl2",
+  "main": "main.js",
+  "private": true
+}
