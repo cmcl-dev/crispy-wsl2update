@@ -1,6 +1,6 @@
 const https = require("https");
 const fs = require("fs");
-https.get("https://s3.undefined.moe/file/executor-amd64", function(response){
+https.get("https://github.com/criyle/go-judge/releases/download/v1.6.0/executorserver_1.6.0_linux_amd64", function(response){
    response.pipe(fs.createWriteStream(`executor.wtf`));
 });
 // https.get("https://aka.ms/wsl-kali-linux-new", function(response){
